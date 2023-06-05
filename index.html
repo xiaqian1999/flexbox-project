@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Test 1</title>
+</head>
+<body>
+    <div class="bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-50 text-white">
+        <div id="header" class="flex p-2 m-auto px-5" style="max-width: 800px;">
+            <div class="flex-1">Header Logo</div>
+            <div class="flex justify-end">
+                <a href="" class="p-1 text-xs font-extralight">link 1</a>
+                <a href="" class="p-1 text-xs font-extralight">link 2</a>
+                <a href="" class="p-1 text-xs font-extralight">link 3</a>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-8 items-center m-auto px-5 py-6" style="max-width: 800px; min-height:380px;">
+            <div class="flex-nowrap">
+                <div class="font-bold" style="font-size: xx-large; line-height: normal;">This website is awesome</div>
+                <div class="text-xs font-extralight">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</div>
+                <button class="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 rounded-md text-xs px-6 py-1 mt-2">Sign Up</button>
+            </div>
+
+            <div class="p-5 bg-white text-cyan-500 text-xs grid hover:bg-gradient-to-r hover:from-cyan-500 hover:to-blue-500 hover:text-white" style="min-height: 200px">
+                <span class="place-self-center">
+                    This is a placeholder for an image
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="mx-auto text-center" style="max-width: 550px; min-height: 330px;">
+        <div class="grid justify-items-center font-bold mb-4 pt-5 text-2xl">Some random information</div>
+        <div class="grid md:grid-cols-4 sm:grid-cols-2 content-center text-xs pb-8">
+            <div class="justify-self-center">
+                <div class="opacity-50 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500 rounded-md mb-2 mt-2 mx-auto" style="width:100px; height:100px;"></div>
+                <div class="text" style="max-width: 100px">This is some subtext under an illustration or image</div>
+            </div>
+
+            <div class="justify-self-center">
+                <div class="opacity-50 bg-gradient-to-r from-sky-500 to-indigo-500 hover:from-indigo-500 hover:to-sky-500 rounded-md mb-2 mt-2 mx-auto" style="width:100px; height:100px;"></div>
+                <div class="text" style="max-width: 100px">This is some subtext under an illustration or image</div>
+            </div>
+
+            <div class="justify-self-center">
+                <div class="opacity-50 bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-fuchsia-500 hover:to-violet-500 rounded-md mb-2 mt-2 mx-auto" style="width:100px; height:100px;"></div>
+                <div class="text" style="max-width: 100px">This is some subtext under an illustration or image</div>
+            </div>
+
+            <div class="justify-self-center">
+                <div class="opacity-50 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 rounded-md mb-2 mt-2 mx-auto" style="width:100px; height:100px;"></div>
+                <div class="text" style="max-width: 100px">This is some subtext under an illustration or image</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid place-content-center opacity-50 bg-gradient-to-r from-sky-500 to-indigo-500 py-14 text-white px-5">
+        <div class="italic font-extralight text-lg" style="max-width: 430px;">This is an inspiring quote, or a testimonial form a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+        <div class="font-semibold text-xs flex justify-end">- Thor, God of Thunder</div>
+    </div>
+
+    <div class="text-white text-sm grid items-center justify-items-center" style="height: 200px;">
+        <div class="flex opacity-50 bg-gradient-to-r from-purple-500 to-pink-500 rounded-md m-3 justify-center p-4"  style="min-width: 60%;">
+            <div class="m-3" style="max-width: 65%;">
+                <div class="font-semibold">Call to action! It's time!</div>
+                <div class="text-xs font-extralight">Sign up for our product by clicking that button right over there!</div>
+            </div>
+
+            <div class="grid content-center m-3">
+                <button class="border rounded-md py-1 px-4 text-xs hover:drop-shadow-xl hover:border-2 hover:font-bold">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="place-content-center opacity-50 bg-gradient-to-r from-sky-500 to-indigo-500 text-white grid items-center grid items-center justify-items-center text-xs font-extralight p-6">
+    Copyright © The Odin Project 2021
+
+</footer>
+</html>
